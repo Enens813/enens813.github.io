@@ -2,8 +2,8 @@
 layout: post
 title: My New Post
 date: 2025-07-12 21:08 +0900
-categories [Practicing, practicing]
-tags: practicing
+categories: [practicing, practicing]
+tags: [practicing]
 description: practicing how to write
 ---
 
