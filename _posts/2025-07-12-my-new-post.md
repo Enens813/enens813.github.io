@@ -7,7 +7,7 @@ tags: [practicing]
 description: practicing how to write
 ---
 
-## How to create Github Pages blog?
+## How to create Github Pages blog like this?
 
 visit [the chipry template site](https://chirpy.cotes.page/posts/getting-started/) to learn from how to create github repo to write a new post
 
