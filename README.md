@@ -1,3 +1,7 @@
+# Note
+로컬에서 열기:
+bundle exec jekyll serve
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
