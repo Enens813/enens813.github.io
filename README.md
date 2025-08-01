@@ -1,5 +1,5 @@
 # Note
-로컬에서 열기:
+로컬에서 열기: vscode에서 dev container로 열어야 함. (경로: /workspace/enens813.github.io)
 bundle exec jekyll serve
 
 # Chirpy Starter
