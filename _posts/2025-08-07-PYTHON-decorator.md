@@ -26,8 +26,8 @@ FYI) 함수를 말할 때,
 ## 기본적인 Decorator 사용법
 - 왼쪽과 오른쪽은 동일한 코드이다
 <p align="center">
-  <img src="assets/img/postimgs/deco_basic1.png" width="45%" />
-  <img src="assets/img/postimgs/deco_basic2.png" width="45%" />
+  <img src="assets/img/postimgs/deco_basic1.png" alt="기본 데코레이터 사용 예제" width="45%" />
+  <img src="assets/img/postimgs/deco_basic2.png" alt="데코레이터와 동일한 코드 예제" width="45%" />
 </p>
 
 - 아예 함수를 바꾸어 새로운 함수로 전달하는 것도 가능하다
@@ -96,7 +96,7 @@ FYI) *args는 모든 위치 인자를, **kwargs는 모든 키워드 인자를 �
 
 ##### 첨부파일
 위 예제를 작성할 때 사용된 코드 파일(ipynb)는 다음 링크에서 다운 받을 수 있습니다.
-[Download Notebook](assets/postfiles/decorator_practice.ipynb)
+[Download Notebook](assets/img/postfiles/decorator_practice.ipynb)
 
 
 # Reference
