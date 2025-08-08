@@ -100,11 +100,11 @@ FYI) *args는 모든 위치 인자를, **kwargs는 모든 키워드 인자를 �
 
 
 # Reference
-https://wikidocs.net/160127
-https://wikidocs.net/184210
-https://youtu.be/3t26Z4vk7XE?si=2v5FMRlIFWWKikvJ
-https://youtu.be/7dMDSXx7TwE?si=l30epUcPW6HFpj5Q
-https://youtu.be/gfAImdVcgn4?si=In-yvgdS_JjJYjgN
-https://youtu.be/-zoRYdsfzco?si=99Q1Ad4vk7c0jVSk
-https://youtu.be/txDg45IsC9A?si=4NOVXV5tn-1pZUl7
-https://youtu.be/KciDHojdxcE?si=KTkwMv6D7hF3cag8
+- https://wikidocs.net/160127
+- https://wikidocs.net/184210
+- https://youtu.be/3t26Z4vk7XE?si=2v5FMRlIFWWKikvJ
+- https://youtu.be/7dMDSXx7TwE?si=l30epUcPW6HFpj5Q
+- https://youtu.be/gfAImdVcgn4?si=In-yvgdS_JjJYjgN
+- https://youtu.be/-zoRYdsfzco?si=99Q1Ad4vk7c0jVSk
+- https://youtu.be/txDg45IsC9A?si=4NOVXV5tn-1pZUl7
+- https://youtu.be/KciDHojdxcE?si=KTkwMv6D7hF3cag8
