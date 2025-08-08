@@ -96,7 +96,7 @@ FYI) *args는 모든 위치 인자를, **kwargs는 모든 키워드 인자를 �
 
 ##### 첨부파일
 위 예제를 작성할 때 사용된 코드 파일(ipynb)는 다음 링크에서 다운 받을 수 있습니다.
-[Download Notebook](assets/img/postfiles/decorator_practice.ipynb)
+[Download Notebook](https://github.com/Enens813/anything/blob/main/blog-files/decorator_practice.ipynb)
 
 
 # Reference
