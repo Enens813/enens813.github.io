@@ -25,10 +25,7 @@ FYI) 함수를 말할 때,
 
 ## 기본적인 Decorator 사용법
 - 왼쪽과 오른쪽은 동일한 코드이다
-<p align="center">
-  <img src="assets/img/postimgs/deco_basic1.png" alt="기본 데코레이터 사용 예제" width="45%" />
-  <img src="assets/img/postimgs/deco_basic2.png" alt="데코레이터와 동일한 코드 예제" width="45%" />
-</p>
+
 
 - 아예 함수를 바꾸어 새로운 함수로 전달하는 것도 가능하다
 ![assets/img/postimgs/deco_basic3.png]
