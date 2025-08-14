@@ -121,5 +121,19 @@ math: true
 	- the action set $\mathcal{A}$ 가 uncountable일 때는 $T_a(n)$ 대신 measurable space $(\mathcal{A},\mathcal{G})$ 에서 measure G를 같은 방식으로 define하고, $R_n$의 decompose는 $\mathbb{E}[T_a(n)]$ 대신 integral on dG(a)로 대체한다. 
 
 
+
+
+# Random and Pseudo regret
+- 위에서 expectation로 정의한 regret은 risk 측정에는 randomness가 반영되지 않아 사용할 수 없음
+- random regret: $$\hat{R_n}=n\mu^*-\sum_{t=1}^nX_t$$
+	- $X_t$에 노이즈 포함.$\rightarrow$ 분산 큼
+	- 사용자  입장에서 체감 위험 반영
+- pseudo-regret: $$\bar{R_n}=n\mu^*-\sum_{t=1}^n \mu_{A_t}$$
+	- $\mu_{A_t}$는 선택한 action의 기대 보상 $\rightarrow$ 노이즈 효과 제거
+	- 알고리즘의 (여러 환경에서) 정책 자체 성능을 더 잘 반영
+
+
+
+
 # Reference
 Tor L., Csaba S., *Bandit Algorithm* 
