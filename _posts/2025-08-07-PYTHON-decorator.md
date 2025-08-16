@@ -94,6 +94,30 @@ FYI) *args는 모든 위치 인자를, **kwargs는 모든 키워드 인자를 �
 ![deco_use9](assets/img/postimgs/deco_use9.png)
 
 
+# 참고 - 클로저(Closure)
+- Python에서 decorator는 closure 덕분에 가능하다.
+- closure란 반환된 내부함수(클래스 내부, 함수 내부 모두 포함)가 자신이 선언되었을 때의 환경을 기억하고, 외부함수 밖에서 호출되더라도 그 환경에 다시 접근할 수 있는 함수다.
+- 이 방법은 내부함수가 반환되는 경우에 자신이 선언되었을 때의 환경인 Scope를 기억하고 있다가, 외부함수 밖에서 호출되면 해당 Scope 에 다시 접근할 수 있게 해서 구현 가능하다.
+- local scope내의 local variable은 자유변수라고 부르고, closure는 local scope에 대해 닫혀 있기 때문에 붙혀진 이름이다.
+
+- 예시)
+  - 항상 3을 곱하는 함수, 4를 곱하는 함수, 5를 곱하는 함수 ... 를 만들 때 다 따로 만드는 건 비효율적임
+  - 아래와 같이 클래스 내부함수를 만들어, 반복적으로 생성, 사용할 수 있게 하는 것이 더 편리함.
+```
+class Mul:
+  def __init__(self, fixed_value):
+    self.fixed_value = fixed_value:
+
+  def __call__(self, n):
+    return self.fixed_value * n
+
+mul3 = Mul(3)
+mul4 = Mul(4)
+print(mul3(10))
+print(mul4(10))
+```
+
+
 ### 첨부파일
 위 예제를 작성할 때 사용된 코드 파일(ipynb)는 다음 링크에서 다운 받을 수 있습니다.
 [Download Notebook](https://github.com/Enens813/anything/blob/main/blog-files/decorator_practice.ipynb)
@@ -108,3 +132,4 @@ FYI) *args는 모든 위치 인자를, **kwargs는 모든 키워드 인자를 �
 - https://youtu.be/-zoRYdsfzco?si=99Q1Ad4vk7c0jVSk
 - https://youtu.be/txDg45IsC9A?si=4NOVXV5tn-1pZUl7
 - https://youtu.be/KciDHojdxcE?si=KTkwMv6D7hF3cag8
+- https://velog.io/@cataiden/python-closure
