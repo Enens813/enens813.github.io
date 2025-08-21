@@ -435,3 +435,7 @@ $$
 
 $$\therefore \nabla_\mathbf{x}(\mathbf{x}^\top A\mathbf{x}) = (A+A^\top)\mathbf{x}$$
 
+# References
+https://atmos.washington.edu/~dennis/MatrixCalculus.pdf
+https://en.wikipedia.org/wiki/Matrix_calculus
+https://darkpgmr.tistory.com/141
