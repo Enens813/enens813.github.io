@@ -4,7 +4,7 @@ title: 여러 가지 분포들
 date: 2025-08-21 22:11 +0900
 categories: [Statistics, General Backgrounds]
 tags: [statistics, general, backgrounds]
-description: 내적 정리
+description: 분포 정리
 math: true
 ---
 
