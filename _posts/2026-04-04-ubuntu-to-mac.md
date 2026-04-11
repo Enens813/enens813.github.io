@@ -59,7 +59,7 @@ description: 우분투에서 mac으로 원격접속 하는 방법 설명
 3. 우선 Display로 들어가서 ㄴㅇㄹㄴㄹㅇㅇㄹㄴㅇㄴㄹㄴ
 사진
 4. input으로 들어가서 'Grab the keyboard input'과 'Map Ctrl to Cmd and Super to Ctrl'을 선택한다
-![NoMachine Input Setting](image.png)
+![NoMachine Input Setting](ubu_nomachine.png)
     - super는 윈도우 버튼이자, Cmd 버튼이다.
     - 이걸 선택하면 키보드의 ctrl을 눌렀을 때 맥에서 cmd를 누른 효과를 얻는다.
 
