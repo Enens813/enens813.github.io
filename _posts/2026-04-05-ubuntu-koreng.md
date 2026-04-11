@@ -59,3 +59,8 @@ sudo apt install fcitx5 fcitx5-hangul
     - 세 번째 Hangul: 다른 상태들에선 한/영키로 작동해라
 
 이 것들을 모두 진행한 후 한/영 키가 정상 동작했다.
+
+
+## 여담
+한영전환이 느린건 해결됐는데, 한국어 입력이 느린 것은 해결이 안됐다.
+무조건 느린 건 아니고, Chrome Chat GPT에서만 느렸다. 이건 Firefox에서 ChatGPT를 이용하는 방법으로 해결했으나 원인은 찾지 못했다..
